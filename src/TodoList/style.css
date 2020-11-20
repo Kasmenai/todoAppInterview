@@ -1,0 +1,37 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 5px;
+}
+.list-label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.list-control {
+  margin-right: 6px;
+}
+.completed {
+  text-decoration: line-through;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  color: #e80e22;
+  background-color: transparent;
+  border-color: #e80e22;
+  border-radius: 2px;
+  transition: background-color 0.3s linear;
+}
+.btn:hover {
+  background-color: rgb(232 14 34 / 0.2);
+}
